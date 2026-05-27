@@ -1,0 +1,26 @@
+{
+  // Dark/Light theme
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
+  "workbench.preferredLightColorTheme": "Default Light+",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+
+  "workbench.iconTheme": "vscode-icons",
+
+  // Virtual nesting related files in same directory (package.json, package-lock.json, etc.)
+  "explorer.fileNesting.enabled": true,
+
+  // Formatting + linting on save
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.removeUnusedImports": "always"
+  },
+
+  // Replace root folder name at the top of the editor with command center (command palette)
+  "window.commandCenter": true,
+
+  "git.terminalAuthentication": false,
+  "diffEditor.ignoreTrimWhitespace": false
+}

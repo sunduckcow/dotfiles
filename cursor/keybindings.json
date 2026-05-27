@@ -1,0 +1,18 @@
+[
+  {
+    // Toggle Cursor chat
+    "key": "cmd+i",
+    "command": "glass.togglePanel",
+    "when": "glassNoModalOpen && isGlassEmptyWorkspace"
+  },
+  {
+    // Toggle Maximize Terminal
+    "key": "shift+cmd+j",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    // Trigger Suggest
+    "key": "cmd+t",
+    "command": "editor.action.triggerSuggest"
+  }
+]
